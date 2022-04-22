@@ -1,0 +1,57 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+body {
+  background-image: url(https://wallpaperaccess.com/full/397388.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div {
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+}
+button {
+  height: 10vh;
+}
+
+.zelda-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.zelda-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  backdrop-filter: blur(4px);
+  background-color: rgba(255,255,255,0.178);
+}
+figcaption {
+  font-size: 50px;
+}
+span {
+  font-size: 30px;
+}
+p {
+  font-size: 25px;
+}
